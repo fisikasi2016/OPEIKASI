@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OPEIKASI</title>
+  <meta name="theme-color" content="#0f766e" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">PWA didaktikoa</p>
+      <h1>OPEIKASI</h1>
+      <p class="hero-text">
+        Euskal Autonomia Erkidegoko Bigarren Hezkuntzako oposizioetarako
+        programazio didaktikoa prestatzeko tresna.
+      </p>
+
+      <!-- BOTÓN INSTALAR -->
+      <button id="installBtn" class="primary-btn" hidden>
+        Instalatu aplikazioa
+      </button>
+    </div>
+  </header>
+
+  <main class="container home-main">
+    
+    <!-- BLOKEAK -->
+    <section class="home-section">
+      <div class="section-heading">
+        <h2>Blokeak</h2>
+        <p>Programazio didaktikoa pausoz pauso osatzeko atalak.</p>
+      </div>
+
+      <div class="card-grid blokeak-grid">
+        
+        <a class="nav-card" href="block.html?block=1">
+          <span class="card-number">1</span>
+          <h3>1. BLOKEA</h3>
+          <div class="difficulty">
+            <span class="difficulty-label">Zailtasuna:</span>
+            <span class="dot filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <p>PD-aren Estruktura orokorra, Indarguneak eta programazioaren narratiba</p>
+        </a>
+
+        <a class="nav-card" href="block.html?block=2">
+          <span class="card-number">2</span>
+          <h3>2. BLOKEA</h3>
+          <div class="difficulty">
+            <span class="difficulty-label">Zailtasuna:</span>
+            <span class="dot filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <p>Curriculum-aren azalpena</p>
+        </a>
+
+        <a class="nav-card" href="block.html?block=3">
+          <span class="card-number">3</span>
+          <h3>3. BLOKEA</h3>
+          <div class="difficulty">
+            <span class="difficulty-label">Zailtasuna:</span>
+            <span class="dot filled"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <p>"Pegatinak": Disziplinartekotasuna, Zeharlerroak, Agenda 2030</p>
+        </a>
+
+        <a class="nav-card" href="block.html?block=4">
+          <span class="card-number">4</span>
+          <h3>4. BLOKEA</h3>
+          <div class="difficulty">
+            <span class="difficulty-label">Zailtasuna:</span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot"></span>
+          </div>
+          <p>Ikas-egoeren planifikazioa</p>
+        </a>
+
+        <a class="nav-card" href="block.html?block=5">
+          <span class="card-number">5</span>
+          <h3>5. BLOKEA</h3>
+          <div class="difficulty">
+            <span class="difficulty-label">Zailtasuna:</span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+          </div>
+          <p>Ikas Egoeren garapena</p>
+        </a>
+
+        <a class="nav-card" href="block.html?block=6">
+          <span class="card-number">6</span>
+          <h3>6. BLOKEA</h3>
+          <div class="difficulty">
+            <span class="difficulty-label">Zailtasuna:</span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+          </div>
+          <p>Metodologia eta ebaluazioa</p>
+        </a>
+
+        <a class="nav-card" href="block.html?block=7">
+          <span class="card-number">7</span>
+          <h3>7. BLOKEA</h3>
+          <div class="difficulty">
+            <span class="difficulty-label">Zailtasuna:</span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot"></span>
+          </div>
+          <p>Helburuak</p>
+        </a>
+
+        <a class="nav-card" href="block.html?block=8">
+          <span class="card-number">8</span>
+          <h3>8. BLOKEA</h3>
+          <div class="difficulty">
+            <span class="difficulty-label">Zailtasuna:</span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot"></span>
+          </div>
+          <p>Curriculum-aren zehaztapena</p>
+        </a>
+
+        <a class="nav-card" href="block.html?block=9">
+          <span class="card-number">9</span>
+          <h3>9. BLOKEA</h3>
+          <div class="difficulty">
+            <span class="difficulty-label">Zailtasuna:</span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot"></span>
+          </div>
+          <p>Testuingurua, Aniztasunaren Trataera eta PD-aren Sarrera</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- EXTRA -->
+    <section class="home-section extra-section">
+      <div class="section-heading">
+        <h2>Baliabide osagarriak</h2>
+        <p>Dokumentu gehigarriak eta esteka erabilgarriak</p>
+      </div>
+
+      <div class="card-grid extra-grid">
+        
+        <a class="nav-card extra-card" href="dokumentazio-gehigarria.html">
+          <span class="card-number">10</span>
+          <h3>DOKUMENTAZIO GEHIGARRIA</h3>
+          <p>Drive-ko dokumentu osagarriak, normalean PDFan</p>
+        </a>
+
+        <a class="nav-card extra-card" href="estekak.html">
+          <span class="card-number">11</span>
+          <h3>ESTEKAK</h3>
+          <p>Kanpo webgune eta baliabide interesgarrietarako sarbidea</p>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
