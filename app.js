@@ -75,13 +75,39 @@ function renderPrompts(prompts) {
               <h3>${idx + 1}. ${item.title}</h3>
               <p>${item.description || ''}</p>
             </div>
-            <button class="copy-btn secondary-btn" data-copy-prompt="${encodeURIComponent(item.prompt)}">Kopiatu</button>
+
+            ${!item.gptUrl ? `
+              <button
+                class="copy-btn secondary-btn"
+                data-copy-prompt="${encodeURIComponent(item.prompt)}">
+                Kopiatu
+              </button>
+            ` : ''}
           </div>
-          <div class="prompt-box">${item.prompt}</div>
+
+          ${!item.gptUrl ? `
+            <div class="prompt-box">${item.prompt}</div>
+          ` : `
+            <div class="prompt-gpt-link">
+              <a
+                class="gpt-btn"
+                href="${item.gptUrl}"
+                target="_blank"
+                rel="noopener noreferrer">
+                ${item.gptTitle || 'Ireki GPT hau'}
+              </a>
+            </div>
+          `}
         </article>
       `).join('')}
+
       <div class="inline-actions">
-        <a class="primary-btn" href="${CHATGPT_URL}" target="_blank" rel="noopener noreferrer">Joan ChatGPTren webgunera</a>
+        <a class="primary-btn"
+           href="${CHATGPT_URL}"
+           target="_blank"
+           rel="noopener noreferrer">
+          Joan ChatGPTren webgunera
+        </a>
       </div>
     </div>
   `;
@@ -135,7 +161,7 @@ function createAccordion(block) {
 
   if (block.prompts) {
     items.push({
-      title: 'Prompt zerrenda',
+      title: 'GPT zerrenda',
       subtitle: 'Kopiatu eta erabili zuzenean ChatGPTn',
       content: renderPrompts(block.prompts)
     });

@@ -353,18 +353,7 @@ const BLOCKS = {
       }
     ],
 
-    prompts: [
-      {
-        title: 'Ikas-egoeren erronkak sortzeko prompta',
-        description: '9 ikas-egoeren lehen proposamena sortzeko.',
-        prompt: 'Proposatu nire irakasgairako 9 ikas-egoera, bakoitza erronka batekin, ikasturteko narratiba koherente baten barruan.'
-      },
-      {
-        title: 'Ikas-egoeren koherentzia berrikusteko prompta',
-        description: 'OJ, KE eta erronkak ondo lotuta dauden aztertzeko.',
-        prompt: 'Aztertu hurrengo ikas-egoeren zerrenda eta esan ea erronkak, konpetentzia espezifikoak eta oinarrizko jakintzak modu koherentean lotuta dauden: [itsatsi hemen]'
-      }
-    ],
+
 
     examples: [
       {
@@ -430,15 +419,11 @@ const BLOCKS = {
 
     prompts: [
       {
-        title: 'Ikas-egoeren erronkak sortzeko prompta',
-        description: '9 ikas-egoeren lehen proposamena sortzeko.',
-        prompt: 'Proposatu nire irakasgairako 9 ikas-egoera, bakoitza erronka batekin, ikasturteko narratiba koherente baten barruan.'
-      },
-      {
-        title: 'Ikas-egoeren koherentzia berrikusteko prompta',
-        description: 'OJ, KE eta erronkak ondo lotuta dauden aztertzeko.',
-        prompt: 'Aztertu hurrengo ikas-egoeren zerrenda eta esan ea erronkak, konpetentzia espezifikoak eta oinarrizko jakintzak modu koherentean lotuta dauden: [itsatsi hemen]'
-      }
+        title: 'Opeikasi 1.0',
+        description: 'Bigarren Hezkuntzako irakasleentzako laguntzaile adimenduna. Curriculum-dekretuan oinarrituta, programazio didaktikoaren garapen-fasea eraikitzen laguntzen du, curriculum-elementuak lotuz, lorpen-adierazleak sortuz eta ebaluazioaren plangintza modu egituratuan garatuz.',
+        gptTitle: 'Ireki GPT hau',
+        gptUrl: 'https://chatgpt.com/g/g-6a1c21230bd88191bdd7b45b6ddcddb3-opeikasi-1-1'
+    }
     ],
 
     examples: [
