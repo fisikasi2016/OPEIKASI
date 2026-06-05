@@ -1,4 +1,4 @@
-const CACHE_NAME = 'opeikasi-v20  ';
+const CACHE_NAME = 'opeikasi-v21  ';
 const ASSETS = [
   './',
   './index.html',

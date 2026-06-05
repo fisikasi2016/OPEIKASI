@@ -423,7 +423,13 @@ const BLOCKS = {
         description: 'Bigarren Hezkuntzako irakasleentzako laguntzaile adimenduna. Curriculum-dekretuan oinarrituta, programazio didaktikoaren garapen-fasea eraikitzen laguntzen du, curriculum-elementuak lotuz, lorpen-adierazleak sortuz eta ebaluazioaren plangintza modu egituratuan garatuz.',
         gptTitle: 'Ireki GPT hau',
         gptUrl: 'https://chatgpt.com/g/g-6a1c21230bd88191bdd7b45b6ddcddb3-opeikasi-1-1'
-    }
+      },
+      {
+        title: 'Opeikasi 2.0',
+        description: 'Bigarren Hezkuntzako irakasleentzako laguntzaile adimenduna. Curriculum-dekretuan oinarrituta, ikas eogera bakoitzari dagokozkion Helburu Didaktikoak sortzeko prest dagoena.',
+        gptTitle: 'Ireki GPT hau',
+        gptUrl: 'https://chatgpt.com/g/g-6a1fd4e271c48191843c30479ac2e158-opeikasi-2-1-helburu-didaktikoak'
+      }
     ],
 
     examples: [
